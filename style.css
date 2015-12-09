@@ -178,7 +178,7 @@ p.name {
 }
 
 footer {
-  height: 180px;
+  height: 220px;
   width: 100%;
   background-color: #262626;
   padding-bottom: 30px;
@@ -197,12 +197,19 @@ footer {
   padding-left: 0px;
 }
 
+ul.center {
+  text-align: center;
+}
+
 li.social {
     display: inline-block;
-    width: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
+
+li.social2 {
+      display: inline-block;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 15px;
+    }
